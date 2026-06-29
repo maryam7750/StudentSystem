@@ -6,7 +6,7 @@ export default function Home() {
 
   const [students, setStudents] = useState([]);
 
-
+s
   const loadStudents = () => {
 
     API.get("/Student")
